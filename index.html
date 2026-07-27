@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polen&amp;Yo — diario de alergia</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#EEF2ED;
+    --bg-card:#FFFFFF;
+    --ink:#1E2B22;
+    --ink-soft:#5B6A5F;
+    --moss:#4C7A63;
+    --moss-dark:#33594A;
+    --moss-pale:#DCEAE2;
+    --pollen:#E0A340;
+    --pollen-pale:#F6E2B4;
+    --rust:#B8503B;
+    --rust-pale:#F1D2C7;
+    --line:#DBE3D8;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height:1.5;
+    padding:0 0 60px;
+  }
+  .app{max-width:880px;margin:0 auto;padding:0 20px;}
+  .hero{padding:38px 0 22px;border-bottom:1px solid var(--line);margin-bottom:26px;}
+  .eyebrow{
+    display:inline-block;
+    font-size:11px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--moss-dark);
+    background:var(--moss-pale);
+    padding:4px 10px;
+    border-radius:999px;
+    font-weight:600;
+  }
+  h1{
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    font-size:44px;
+    letter-spacing:-0.02em;
+    margin:14px 0 4px;
+    font-weight:700;
+  }
+  h1 em{color:var(--pollen);font-style:normal;}
+  .tagline{color:var(--ink-soft);font-size:15.5px;margin:0 0 22px;font-style:italic;}
+  .station-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;}
+  select, input[type="date"], input[type="text"], textarea{
+    font-family:inherit;
+    font-size:14.5px;
+    padding:9px 12px;
+    border-radius:10px;
+    border:1px solid var(--line);
+    background:#fff;
+    color:var(--ink);
+  }
+  textarea{width:100%;min-height:64px;resize:vertical;}
+  button{
+    font-family:inherit;
+    font-size:14.5px;
+    font-weight:600;
+    padding:10px 16px;
+    border-radius:10px;
+    border:none;
+    background:var(--moss);
+    color:#fff;
+    cursor:pointer;
+    transition:background .15s ease;
+  }
+  button:hover{background:var(--moss-dark);}
+  button.ghost{background:transparent;color:var(--moss-dark);border:1px solid var(--moss);}
+  button.ghost:hover{background:var(--moss-pale);}
+  button.danger{background:var(--rust);}
+  button.danger:hover{background:#963e2f;}
+  button:disabled{opacity:.55;cursor:default;}
+  .status{font-size:13px;color:var(--ink-soft);}
+  .card{
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:24px;
+    margin-bottom:22px;
+  }
+  .card h2{
+    font-family: Georgia, "Iowan Old Style", serif;
+    font-size:21px;
+    margin:0 0 14px;
+    letter-spacing:-0.01em;
+  }
+  .hint{font-size:13.5px;color:var(--ink-soft);margin:6px 0 14px;}
+  .levels-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-bottom:6px;}
+  .level-chip{
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:10px 12px;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+  }
+  .level-chip .name{font-size:13px;font-weight:600;}
+  .level-bar{height:6px;border-radius:4px;background:var(--line);overflow:hidden;}
+  .level-bar > div{height:100%;border-radius:4px;}
+  .level-label{font-size:11.5px;color:var(--ink-soft);}
+  details{margin-top:14px;border-top:1px dashed var(--line);padding-top:12px;}
+  summary{cursor:pointer;font-size:13.5px;font-weight:600;color:var(--moss-dark);}
+  #manualTaxaForm{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;margin-top:12px;}
+  .manual-row{display:flex;flex-direction:column;gap:4px;font-size:13px;}
+  .manual-row select{width:100%;}
+  .add-taxon-row{display:flex;gap:8px;margin-top:12px;}
+  .add-taxon-row input{flex:1;}
+  textarea#xmlPaste{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospace;font-size:12px;margin-bottom:10px;}
+  .severity-scale{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
+  .sev-btn{
+    flex:1;min-width:90px;
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:12px 8px;
+    text-align:center;
+    background:#fff;
+    cursor:pointer;
+    font-size:13px;
+    color:var(--ink-soft);
+  }
+  .sev-btn .emoji{display:block;font-size:22px;margin-bottom:4px;}
+  .sev-btn.active{border-color:var(--moss);background:var(--moss-pale);color:var(--moss-dark);font-weight:700;}
+  .date-picker-row{display:flex;align-items:center;gap:10px;margin-bottom:16px;}
+  .date-picker-row label{font-size:13px;color:var(--ink-soft);}
+  .heatmap{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px;}
+  .day-cell{
+    width:14px;height:14px;border-radius:3px;
+    background:var(--line);
+    position:relative;
+  }
+  .heatmap-legend{display:flex;gap:14px;align-items:center;font-size:12px;color:var(--ink-soft);flex-wrap:wrap;}
+  .legend-swatch{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:middle;}
+  canvas{max-width:100%;}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;}
+  th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{color:var(--ink-soft);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em;}
+  td.notes{max-width:220px;color:var(--ink-soft);}
+  .row-actions{white-space:nowrap;}
+  .row-actions button{padding:4px 9px;font-size:12px;margin-right:4px;}
+  footer{margin-top:36px;font-size:12.5px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;align-items:center;}
+  footer a{color:var(--moss-dark);}
+  .empty-note{color:var(--ink-soft);font-size:13.5px;}
+  @media (max-width:520px){
+    h1{font-size:34px;}
+    .card{padding:18px;}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <header class="hero">
+    <span class="eyebrow">Datos: Punt d'Informació Aerobiològica · XAC · Catalunya</span>
+    <h1>Polen<em>&amp;</em>Yo</h1>
+    <p class="tagline">Cada síntoma cuenta una historia en el aire.</p>
+    <div class="station-row">
+      <select id="stationSelect"></select>
+      <button id="fetchBtn">Actualizar niveles de hoy</button>
+      <span class="status" id="fetchStatus"></span>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>Niveles de hoy — <span id="todayDate"></span></h2>
+    <div id="levelsGrid" class="levels-grid"></div>
+    <p class="empty-note" id="noLevelsNote">Todavía no hay niveles cargados para hoy. Pulsa «Actualizar niveles de hoy», o introdúcelos abajo.</p>
+
+    <details id="manualDetails">
+      <summary>Introducir / editar niveles manualmente</summary>
+      <p class="hint">Consulta los niveles en <a href="https://aerobiologia.cat/pia/es/nivells" target="_blank" rel="noopener">aerobiologia.cat/pia/es/nivells</a> y selecciónalos aquí.</p>
+      <div id="manualTaxaForm"></div>
+      <div class="add-taxon-row">
+        <input type="text" id="newTaxonName" placeholder="Añadir otro alérgeno (p. ej. Ambrosía)">
+        <button class="ghost" id="addTaxonBtn">Añadir</button>
+      </div>
+    </details>
+
+    <details id="pasteDetails">
+      <summary>¿La carga automática no funcionó? Pega aquí el XML de la API</summary>
+      <p class="hint">
+        Por restricciones del navegador, puede que la carga automática falle. Solución alternativa:
+        abre <span id="apiLinkWrap"></span> en una pestaña nueva, copia todo el texto (Ctrl/Cmd+A, Ctrl/Cmd+C) y pégalo aquí.
+      </p>
+      <textarea id="xmlPaste" placeholder="&lt;forecast&gt;...&lt;/forecast&gt;"></textarea>
+      <button class="ghost" id="parsePasteBtn">Procesar XML pegado</button>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2>¿Cómo te sentiste?</h2>
+    <div class="date-picker-row">
+      <label for="entryDate">Registrando el día</label>
+      <input type="date" id="entryDate">
+    </div>
+    <div class="severity-scale" id="severityScale"></div>
+    <textarea id="notesInput" placeholder="Notas: estornudos, ojos, tos, dónde estuviste hoy..."></textarea>
+    <div style="margin-top:12px;display:flex;gap:10px;align-items:center;">
+      <button id="saveEntryBtn">Guardar registro</button>
+      <button class="ghost" id="clearFormBtn" type="button">Nuevo registro</button>
+      <span class="status" id="saveStatus"></span>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Tu racha de aire (últimos 90 días)</h2>
+    <div id="heatmap" class="heatmap"></div>
+    <div class="heatmap-legend">
+      <span><span class="legend-swatch" style="background:var(--line)"></span>Sin registro</span>
+      <span><span class="legend-swatch" style="background:#8FC1A6"></span>Muy bien / Bien</span>
+      <span><span class="legend-swatch" style="background:var(--pollen)"></span>Regular</span>
+      <span><span class="legend-swatch" style="background:var(--rust)"></span>Mal / Muy mal</span>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>¿Qué alérgeno te afecta más?</h2>
+    <p class="hint">Comparamos tu malestar medio en días con nivel alto de cada alérgeno frente a días con nivel bajo. Cuanta más diferencia, más probable que sea un desencadenante para ti.</p>
+    <canvas id="correlationChart" height="220"></canvas>
+    <p class="empty-note" id="correlationEmpty"></p>
+  </section>
+
+  <section class="card">
+    <h2>Evolución en el tiempo</h2>
+    <canvas id="timelineChart" height="220"></canvas>
+    <p class="empty-note" id="timelineEmpty"></p>
+  </section>
+
+  <section class="card">
+    <h2>Historial de registros</h2>
+    <div style="overflow-x:auto;">
+    <table id="historyTable">
+      <thead><tr><th>Fecha</th><th>Malestar</th><th>Notas</th><th>Niveles</th><th></th></tr></thead>
+      <tbody id="historyBody"></tbody>
+    </table>
+    </div>
+    <p class="empty-note" id="historyEmpty"></p>
+  </section>
+
+  <footer>
+    <span>Niveles de polen y esporas: <a href="https://aerobiologia.cat/pia/es/" target="_blank" rel="noopener">Punt d'Informació Aerobiològica (XAC–UAB)</a>, licencia CC BY-NC-SA 4.0. App personal no afiliada al PIA. Tus registros se guardan solo en este navegador.</span>
+    <span>
+      <button class="ghost" id="exportBtn" type="button">Exportar datos (JSON)</button>
+      <button class="ghost" id="importBtn" type="button">Importar datos</button>
+      <input type="file" id="importFile" accept="application/json" style="display:none">
+      <button class="danger" id="resetAllBtn" type="button">Borrar todos mis datos</button>
+    </span>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+
+  // ---------- Config ----------
+  const STATIONS = [
+    {id:'catalunya', label:'Catalunya (todas las estaciones)'},
+    {id:'barcelona', label:'Barcelona'},
+    {id:'bellaterra', label:'Bellaterra'},
+    {id:'girona', label:'Girona'},
+    {id:'lleida', label:'Lleida'},
+    {id:'manresa', label:'Manresa'},
+    {id:'roquetes', label:'Roquetes'},
+    {id:'tarragona', label:'Tarragona'},
+    {id:'vielha', label:'Vielha'},
+    {id:'son', label:'Planes de Son'},
+  ];
+
+  const DEFAULT_TAXA = [
+    'Gramíneas','Olivo','Plátano de sombra','Cupresáceas','Parietaria',
+    'Artemisa','Quercus (Robles/Encinas)','Alternaria (hongo)','Abedul','Pinos'
+  ];
+
+  const LEVEL_LABELS = ['Ausente','Bajo','Moderado','Alto','Muy alto'];
+  const LEVEL_COLORS = ['#DBE3D8','#BEE0CE','#F0CB74','#E0A340','#B8503B'];
+  const LEVEL_WORDS = {
+    'nulo':0,'nul':0,'ausente':0,'null':0,'absent':0,'none':0,'0':0,
+    'bajo':1,'baix':1,'low':1,'1':1,
+    'moderado':2,'moderat':2,'moderate':2,'2':2,
+    'alto':3,'alt':3,'high':3,'3':3,
+    'muy alto':4,'molt alt':4,'very high':4,'4':4
+  };
+
+  const SEVERITY = [
+    {label:'Muy bien', emoji:'😊', color:'#6FAE8C'},
+    {label:'Bien',     emoji:'🙂', color:'#8FC1A6'},
+    {label:'Regular',  emoji:'😐', color:'#E0A340'},
+    {label:'Mal',      emoji:'😣', color:'#C97350'},
+    {label:'Muy mal',  emoji:'😫', color:'#B8503B'},
+  ];
+
+  function fmtDate(d){
+    const y=d.getFullYear(), m=String(d.getMonth()+1).padStart(2,'0'), day=String(d.getDate()).padStart(2,'0');
+    return `${y}-${m}-${day}`;
+  }
+  function labelDate(dstr){
+    const d = new Date(dstr+'T00:00:00');
+    return d.toLocaleDateString('es-ES',{weekday:'short', day:'numeric', month:'short'});
+  }
+  const todayStr = fmtDate(new Date());
+
+  // ---------- State ----------
+  let state = {
+    station: 'barcelona',
+    taxaCatalog: [...DEFAULT_TAXA],
+    todayLevels: {},          // {taxonName: level 0-4}
+    entries: {},              // {date: {date, severity, notes, station, levels}}
+    selectedSeverity: null,
+  };
+
+  // ---------- Storage helpers ----------
+  // Uses localStorage under a namespaced prefix, so this app works standalone
+  // (e.g. hosted on GitHub Pages) with no external database required.
+  // Data lives only in this browser, on this device.
+  const STORAGE_PREFIX = 'polenyo:';
+
+  async function storeSet(key, value){
+    try{
+      localStorage.setItem(STORAGE_PREFIX+key, JSON.stringify(value));
+      return {key, value};
+    }catch(e){ console.error('Storage set error', key, e); return null; }
+  }
+  async function storeGet(key){
+    try{
+      const raw = localStorage.getItem(STORAGE_PREFIX+key);
+      return raw ? JSON.parse(raw) : null;
+    }catch(e){ return null; }
+  }
+  async function storeDelete(key){
+    try{ localStorage.removeItem(STORAGE_PREFIX+key); }catch(e){ /* ignore */ }
+  }
+  async function storeListEntries(){
+    try{
+      const keys = [];
+      for(let i=0;i<localStorage.length;i++){
+        const k = localStorage.key(i);
+        if(k && k.startsWith(STORAGE_PREFIX+'entries:')) keys.push(k.slice(STORAGE_PREFIX.length));
+      }
+      return keys;
+    }catch(e){ return []; }
+  }
+
+  // ---------- Init ----------
+  async function init(){
+    // station select
+    const stationSelect = document.getElementById('stationSelect');
+    stationSelect.innerHTML = STATIONS.map(s=>`<option value="${s.id}">${s.label}</option>`).join('');
+    const settings = await storeGet('settings');
+    if(settings){
+      state.station = settings.station || state.station;
+      if(settings.taxaCatalog && settings.taxaCatalog.length) state.taxaCatalog = settings.taxaCatalog;
+    }
+    stationSelect.value = state.station;
+    stationSelect.addEventListener('change', async ()=>{
+      state.station = stationSelect.value;
+      await storeSet('settings', {station: state.station, taxaCatalog: state.taxaCatalog});
+      updateApiLink();
+    });
+
+    document.getElementById('todayDate').textContent = new Date().toLocaleDateString('es-ES',{weekday:'long', day:'numeric', month:'long', year:'numeric'});
+    document.getElementById('entryDate').value = todayStr;
+    document.getElementById('entryDate').max = todayStr;
+
+    updateApiLink();
+    renderSeverityScale();
+    renderManualForm();
+    renderLevelsGrid();
+
+    document.getElementById('fetchBtn').addEventListener('click', tryAutoFetch);
+    document.getElementById('addTaxonBtn').addEventListener('click', addCustomTaxon);
+    document.getElementById('parsePasteBtn').addEventListener('click', parsePastedXml);
+    document.getElementById('saveEntryBtn').addEventListener('click', saveEntry);
+    document.getElementById('clearFormBtn').addEventListener('click', ()=>loadFormForDate(todayStr, true));
+    document.getElementById('entryDate').addEventListener('change', (e)=>loadFormForDate(e.target.value, false));
+    document.getElementById('resetAllBtn').addEventListener('click', resetAllData);
+    document.getElementById('exportBtn').addEventListener('click', exportData);
+    document.getElementById('importBtn').addEventListener('click', ()=>document.getElementById('importFile').click());
+    document.getElementById('importFile').addEventListener('change', importData);
+
+    await loadAllEntries();
+    loadFormForDate(todayStr, false);
+    renderHeatmap();
+    renderCorrelation();
+    renderTimeline();
+    renderHistory();
+  }
+
+  function updateApiLink(){
+    const url = `https://aerobiologia.cat/api/v0/forecast/${state.station}/es/xml`;
+    document.getElementById('apiLinkWrap').innerHTML = `<a href="${url}" target="_blank" rel="noopener">${url}</a>`;
+  }
+
+  // ---------- Levels grid / manual form ----------
+  function renderLevelsGrid(){
+    const grid = document.getElementById('levelsGrid');
+    const keys = Object.keys(state.todayLevels);
+    document.getElementById('noLevelsNote').style.display = keys.length ? 'none' : 'block';
+    grid.innerHTML = keys.map(name=>{
+      const lvl = state.todayLevels[name];
+      const pct = (lvl/4*100).toFixed(0);
+      return `<div class="level-chip">
+        <span class="name">${name}</span>
+        <div class="level-bar"><div style="width:${pct}%;background:${LEVEL_COLORS[lvl]}"></div></div>
+        <span class="level-label">${LEVEL_LABELS[lvl] ?? '—'}</span>
+      </div>`;
+    }).join('');
+  }
+
+  function renderManualForm(){
+    const form = document.getElementById('manualTaxaForm');
+    form.innerHTML = state.taxaCatalog.map(name=>{
+      const current = state.todayLevels[name];
+      const opts = LEVEL_LABELS.map((l,i)=>`<option value="${i}" ${current===i?'selected':''}>${l}</option>`).join('');
+      const noneSelected = current===undefined ? 'selected' : '';
+      return `<div class="manual-row">
+        <label>${name}</label>
+        <select data-taxon="${encodeURIComponent(name)}">
+          <option value="" ${noneSelected}>Sin dato</option>
+          ${opts}
+        </select>
+      </div>`;
+    }).join('');
+    form.querySelectorAll('select').forEach(sel=>{
+      sel.addEventListener('change', ()=>{
+        const name = decodeURIComponent(sel.dataset.taxon);
+        if(sel.value === '') delete state.todayLevels[name];
+        else state.todayLevels[name] = parseInt(sel.value,10);
+        renderLevelsGrid();
+      });
+    });
+  }
+
+  async function addCustomTaxon(){
+    const input = document.getElementById('newTaxonName');
+    const name = input.value.trim();
+    if(!name) return;
+    if(!state.taxaCatalog.includes(name)) state.taxaCatalog.push(name);
+    input.value = '';
+    renderManualForm();
+    await storeSet('settings', {station: state.station, taxaCatalog: state.taxaCatalog});
+  }
+
+  // ---------- Auto fetch (best effort) ----------
+  async function tryAutoFetch(){
+    const statusEl = document.getElementById('fetchStatus');
+    statusEl.textContent = 'Consultando aerobiologia.cat...';
+    const url = `https://aerobiologia.cat/api/v0/forecast/${state.station}/es/xml`;
+    try{
+      const controller = new AbortController();
+      const t = setTimeout(()=>controller.abort(), 9000);
+      const resp = await fetch(url, {signal: controller.signal});
+      clearTimeout(t);
+      if(!resp.ok) throw new Error('HTTP '+resp.status);
+      const text = await resp.text();
+      applyParsedXml(text, statusEl);
+    }catch(e){
+      statusEl.textContent = 'No se pudo cargar automáticamente (probablemente el navegador bloquea la petición). Usa la opción de pegar XML abajo.';
+      document.getElementById('pasteDetails').open = true;
+    }
+  }
+
+  function parsePastedXml(){
+    const statusEl = document.getElementById('fetchStatus');
+    const text = document.getElementById('xmlPaste').value.trim();
+    if(!text){ statusEl.textContent = 'Pega primero el contenido del XML.'; return; }
+    applyParsedXml(text, statusEl);
+  }
+
+  function applyParsedXml(xmlText, statusEl){
+    try{
+      const parsed = parseForecastXML(xmlText);
+      const names = Object.keys(parsed);
+      if(!names.length){
+        statusEl.textContent = 'Se recibió una respuesta pero no se pudo interpretar la estructura. Introduce los niveles manualmente.';
+        document.getElementById('manualDetails').open = true;
+        return;
+      }
+      names.forEach(n=>{ if(!state.taxaCatalog.includes(n)) state.taxaCatalog.push(n); });
+      state.todayLevels = {...state.todayLevels, ...parsed};
+      renderManualForm();
+      renderLevelsGrid();
+      storeSet('settings', {station: state.station, taxaCatalog: state.taxaCatalog});
+      statusEl.textContent = `Niveles actualizados (${names.length} alérgenos) ✓`;
+    }catch(e){
+      statusEl.textContent = 'No se pudo interpretar el XML. Introduce los niveles manualmente.';
+      document.getElementById('manualDetails').open = true;
+    }
+  }
+
+  function normalizeLevel(raw){
+    if(raw===null || raw===undefined) return null;
+    const s = String(raw).trim().toLowerCase();
+    if(s in LEVEL_WORDS) return LEVEL_WORDS[s];
+    const n = parseFloat(s);
+    if(!isNaN(n)){
+      if(n<=4) return Math.max(0,Math.round(n));
+      if(n<=5) return Math.round(n*4/5);
+      return Math.min(4, Math.round(n/25));
+    }
+    return null;
+  }
+
+  // Defensive/heuristic XML parser: schema of the public API is not confirmed,
+  // so this looks for plausible taxon-name + level pairs under several tag names.
+  function parseForecastXML(xmlText){
+    const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
+    if(doc.querySelector('parsererror')) throw new Error('XML inválido');
+    const results = {};
+    const allEls = Array.from(doc.getElementsByTagName('*'));
+    allEls.forEach(el=>{
+      const tag = el.tagName.toLowerCase();
+      if(/taxon|especie|species|tipus|type/i.test(tag)){
+        let name = el.getAttribute('name') || el.getAttribute('nom') || el.getAttribute('nombre');
+        if(!name){
+          const nameEl = Array.from(el.children).find(c=>/name|nom|nombre|label|title/i.test(c.tagName));
+          if(nameEl) name = nameEl.textContent.trim();
+        }
+        if(!name || name.length>60) return;
+
+        let level = null;
+        const dayEls = Array.from(el.querySelectorAll('*')).filter(c=>/day|date|level|value|valor|nivell|nivel/i.test(c.tagName));
+        for(const d of dayEls){
+          const dateAttr = d.getAttribute('date') || d.getAttribute('data') || d.getAttribute('fecha');
+          if(dateAttr && dateAttr.indexOf(todayStr)===0){
+            const val = d.textContent || d.getAttribute('value') || d.getAttribute('level');
+            const norm = normalizeLevel(val);
+            if(norm!==null){ level = norm; break; }
+          }
+        }
+        if(level===null && dayEls.length){
+          for(const d of dayEls){
+            const norm = normalizeLevel(d.textContent);
+            if(norm!==null){ level = norm; break; }
+          }
+        }
+        if(level!==null) results[name] = level;
+      }
+    });
+    return results;
+  }
+
+  // ---------- Check-in form ----------
+  function renderSeverityScale(){
+    const wrap = document.getElementById('severityScale');
+    wrap.innerHTML = SEVERITY.map((s,i)=>`
+      <div class="sev-btn" data-i="${i}">
+        <span class="emoji">${s.emoji}</span>${s.label}
+      </div>`).join('');
+    wrap.querySelectorAll('.sev-btn').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        state.selectedSeverity = parseInt(btn.dataset.i,10);
+        wrap.querySelectorAll('.sev-btn').forEach(b=>b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+  }
+
+  function loadFormForDate(dateStr, forceNew){
+    document.getElementById('entryDate').value = dateStr;
+    const existing = !forceNew ? state.entries[dateStr] : null;
+    const wrap = document.getElementById('severityScale');
+    wrap.querySelectorAll('.sev-btn').forEach(b=>b.classList.remove('active'));
+    if(existing){
+      state.selectedSeverity = existing.severity;
+      const btn = wrap.querySelector(`.sev-btn[data-i="${existing.severity}"]`);
+      if(btn) btn.classList.add('active');
+      document.getElementById('notesInput').value = existing.notes || '';
+    } else {
+      state.selectedSeverity = null;
+      document.getElementById('notesInput').value = '';
+    }
+    document.getElementById('saveStatus').textContent = existing ? 'Editando registro existente de este día.' : '';
+  }
+
+  async function saveEntry(){
+    const statusEl = document.getElementById('saveStatus');
+    const dateStr = document.getElementById('entryDate').value || todayStr;
+    if(state.selectedSeverity===null){
+      statusEl.textContent = 'Elige primero cómo te sentiste.';
+      return;
+    }
+    const notes = document.getElementById('notesInput').value.trim();
+    const levels = dateStr===todayStr ? {...state.todayLevels} : (state.entries[dateStr]?.levels || {});
+    const entry = {
+      date: dateStr,
+      severity: state.selectedSeverity,
+      notes,
+      station: state.station,
+      levels
+    };
+    const res = await storeSet('entries:'+dateStr, entry);
+    if(res===null){ statusEl.textContent = 'No se pudo guardar. Inténtalo de nuevo.'; return; }
+    state.entries[dateStr] = entry;
+    statusEl.textContent = 'Registro guardado ✓';
+    renderHeatmap();
+    renderCorrelation();
+    renderTimeline();
+    renderHistory();
+  }
+
+  async function deleteEntry(dateStr){
+    await storeDelete('entries:'+dateStr);
+    delete state.entries[dateStr];
+    renderHeatmap();
+    renderCorrelation();
+    renderTimeline();
+    renderHistory();
+    if(document.getElementById('entryDate').value === dateStr) loadFormForDate(todayStr, true);
+  }
+
+  async function loadAllEntries(){
+    const keys = await storeListEntries();
+    const values = await Promise.all(keys.map(k=>storeGet(k)));
+    values.forEach(v=>{ if(v && v.date) state.entries[v.date] = v; });
+  }
+
+  // ---------- Heatmap ----------
+  function renderHeatmap(){
+    const el = document.getElementById('heatmap');
+    el.innerHTML = '';
+    const days = [];
+    for(let i=89;i>=0;i--){
+      const d = new Date();
+      d.setDate(d.getDate()-i);
+      days.push(fmtDate(d));
+    }
+    days.forEach(dstr=>{
+      const entry = state.entries[dstr];
+      const cell = document.createElement('div');
+      cell.className = 'day-cell';
+      if(entry){
+        cell.style.background = SEVERITY[entry.severity].color;
+        const lvlSummary = Object.entries(entry.levels||{}).map(([k,v])=>`${k}: ${LEVEL_LABELS[v]}`).join(', ');
+        cell.title = `${labelDate(dstr)} — ${SEVERITY[entry.severity].label}${entry.notes ? ' · '+entry.notes : ''}${lvlSummary ? ' · '+lvlSummary : ''}`;
+      } else {
+        cell.title = labelDate(dstr) + ' — sin registro';
+      }
+      el.appendChild(cell);
+    });
+  }
+
+  // ---------- Correlation ----------
+  let correlationChart, timelineChart;
+  function renderCorrelation(){
+    const taxonStats = {};
+    Object.values(state.entries).forEach(entry=>{
+      Object.entries(entry.levels||{}).forEach(([name, lvl])=>{
+        if(!taxonStats[name]) taxonStats[name] = {high:[], low:[]};
+        if(lvl>=3) taxonStats[name].high.push(entry.severity);
+        else if(lvl<=1) taxonStats[name].low.push(entry.severity);
+      });
+    });
+    const rows = Object.entries(taxonStats)
+      .filter(([,v])=>v.high.length>=2 && v.low.length>=2)
+      .map(([name,v])=>{
+        const avgHigh = v.high.reduce((a,b)=>a+b,0)/v.high.length;
+        const avgLow = v.low.reduce((a,b)=>a+b,0)/v.low.length;
+        return {name, delta: avgHigh-avgLow, avgHigh, avgLow};
+      })
+      .sort((a,b)=>b.delta-a.delta);
+
+    const emptyEl = document.getElementById('correlationEmpty');
+    const canvas = document.getElementById('correlationChart');
+    if(!rows.length){
+      canvas.style.display='none';
+      emptyEl.style.display='block';
+      emptyEl.textContent = 'Todavía no hay suficientes datos cruzados (registros con niveles altos y bajos del mismo alérgeno). Sigue registrando niveles junto a tu malestar día a día.';
+      if(correlationChart){ correlationChart.destroy(); correlationChart=null; }
+      return;
+    }
+    canvas.style.display='block';
+    emptyEl.style.display='none';
+
+    if(correlationChart) correlationChart.destroy();
+    correlationChart = new Chart(canvas, {
+      type: 'bar',
+      data: {
+        labels: rows.map(r=>r.name),
+        datasets: [{
+          label: 'Diferencia de malestar (nivel alto − nivel bajo)',
+          data: rows.map(r=>Number(r.delta.toFixed(2))),
+          backgroundColor: rows.map(r=> r.delta>=0 ? '#B8503B' : '#6FAE8C'),
+          borderRadius: 6,
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        plugins: { legend: { display:false } },
+        scales: {
+          x: { min:-4, max:4, title:{display:true, text:'Malestar extra en días de nivel alto'} }
+        }
+      }
+    });
+  }
+
+  function renderTimeline(){
+    const dates = Object.keys(state.entries).sort();
+    const canvas = document.getElementById('timelineChart');
+    const emptyEl = document.getElementById('timelineEmpty');
+    if(!dates.length){
+      canvas.style.display='none';
+      emptyEl.style.display='block';
+      emptyEl.textContent = 'Registra algunos días para ver tu evolución aquí.';
+      if(timelineChart){ timelineChart.destroy(); timelineChart=null; }
+      return;
+    }
+    canvas.style.display='block';
+    emptyEl.style.display='none';
+    if(timelineChart) timelineChart.destroy();
+    timelineChart = new Chart(canvas, {
+      type:'line',
+      data:{
+        labels: dates.map(labelDate),
+        datasets:[{
+          label:'Malestar (0=muy bien, 4=muy mal)',
+          data: dates.map(d=>state.entries[d].severity),
+          borderColor:'#B8503B',
+          backgroundColor:'#F1D2C7',
+          tension:.25,
+          fill:true,
+          pointRadius:4,
+        }]
+      },
+      options:{
+        responsive:true,
+        plugins:{legend:{display:true}},
+        scales:{ y:{ min:0, max:4, ticks:{ stepSize:1, callback:(v)=>SEVERITY[v]?.label || v } } }
+      }
+    });
+  }
+
+  // ---------- History table ----------
+  function renderHistory(){
+    const body = document.getElementById('historyBody');
+    const emptyEl = document.getElementById('historyEmpty');
+    const dates = Object.keys(state.entries).sort().reverse();
+    if(!dates.length){
+      body.innerHTML = '';
+      emptyEl.style.display='block';
+      emptyEl.textContent = 'Todavía no has guardado ningún registro.';
+      return;
+    }
+    emptyEl.style.display='none';
+    body.innerHTML = dates.map(d=>{
+      const e = state.entries[d];
+      const lvlSummary = Object.entries(e.levels||{}).map(([k,v])=>`${k}: ${LEVEL_LABELS[v]}`).join(', ') || '—';
+      return `<tr>
+        <td>${labelDate(d)}</td>
+        <td>${SEVERITY[e.severity].emoji} ${SEVERITY[e.severity].label}</td>
+        <td class="notes">${e.notes ? escapeHtml(e.notes) : '—'}</td>
+        <td>${escapeHtml(lvlSummary)}</td>
+        <td class="row-actions">
+          <button class="ghost" data-edit="${d}">Editar</button>
+          <button class="danger" data-del="${d}">Borrar</button>
+        </td>
+      </tr>`;
+    }).join('');
+    body.querySelectorAll('[data-edit]').forEach(b=>b.addEventListener('click', ()=>{
+      loadFormForDate(b.dataset.edit, false);
+      window.scrollTo({top: document.querySelector('.card:nth-of-type(2)')?.offsetTop || 0, behavior:'smooth'});
+    }));
+    body.querySelectorAll('[data-del]').forEach(b=>b.addEventListener('click', ()=>{
+      if(confirm('¿Borrar este registro?')) deleteEntry(b.dataset.del);
+    }));
+  }
+
+  function escapeHtml(s){
+    return s.replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function exportData(){
+    const payload = {
+      exportedAt: new Date().toISOString(),
+      settings: {station: state.station, taxaCatalog: state.taxaCatalog},
+      entries: state.entries
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], {type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `polen-y-yo-backup-${todayStr}.json`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  async function importData(e){
+    const file = e.target.files[0];
+    if(!file) return;
+    try{
+      const text = await file.text();
+      const payload = JSON.parse(text);
+      if(payload.settings){
+        state.station = payload.settings.station || state.station;
+        if(payload.settings.taxaCatalog?.length) state.taxaCatalog = payload.settings.taxaCatalog;
+        await storeSet('settings', {station: state.station, taxaCatalog: state.taxaCatalog});
+        document.getElementById('stationSelect').value = state.station;
+      }
+      if(payload.entries){
+        for(const [date, entry] of Object.entries(payload.entries)){
+          await storeSet('entries:'+date, entry);
+          state.entries[date] = entry;
+        }
+      }
+      renderManualForm();
+      renderLevelsGrid();
+      renderHeatmap();
+      renderCorrelation();
+      renderTimeline();
+      renderHistory();
+      alert('Datos importados correctamente.');
+    }catch(err){
+      alert('No se pudo leer el archivo. Asegúrate de que es un JSON exportado desde esta app.');
+    }
+    e.target.value = '';
+  }
+
+  async function resetAllData(){
+    if(!confirm('Esto borrará todos tus registros guardados en este dispositivo. ¿Continuar?')) return;
+    const keys = await storeListEntries();
+    await Promise.all(keys.map(k=>storeDelete(k)));
+    await storeDelete('settings');
+    state.entries = {};
+    state.todayLevels = {};
+    state.taxaCatalog = [...DEFAULT_TAXA];
+    renderManualForm();
+    renderLevelsGrid();
+    renderHeatmap();
+    renderCorrelation();
+    renderTimeline();
+    renderHistory();
+    loadFormForDate(todayStr, true);
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
