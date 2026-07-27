@@ -1,39 +1,705 @@
 {
-  "generated_at": "2026-07-27T09:00:00+00:00",
+  "generated_at": "2026-07-27T13:42:50.244190+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
-  "level_scale": {"0": "Nulo", "1": "Bajo", "2": "Medio", "3": "Alto", "4": "Máximo"},
-  "trend_scale": {"=": "Estable", "A": "Aumenta", "D": "Descenso", "!": "Situación excepcional"},
-  "note": "Semilla inicial cargada a mano el 27/07/2026 a partir de la página pública, para que la app funcione desde el primer minuto. En cuanto se ejecute el GitHub Action 'Actualizar datos de polen' (automático o manual, desde la pestaña Actions), este archivo se sobrescribirá con datos frescos de todas las estaciones.",
+  "level_scale": {
+    "0": "Nulo",
+    "1": "Bajo",
+    "2": "Medio",
+    "3": "Alto",
+    "4": "Máximo"
+  },
+  "trend_scale": {
+    "=": "Estable",
+    "A": "Aumenta",
+    "D": "Descenso",
+    "!": "Situación excepcional"
+  },
   "stations": {
     "barcelona": {
       "week": "27 de Julio a 02 de Agosto de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/barcelona",
       "taxa": [
-        {"name": "Parietaria (Urticaceae)", "level": 1, "trend": "="},
-        {"name": "Gramíneas (Gramineae (Poaceae))", "level": 1, "trend": "="},
-        {"name": "Olivo (Olea)", "level": 0, "trend": "="},
-        {"name": "Aligustre (Ligustrum)", "level": 0, "trend": "="},
-        {"name": "Castaño (Castanea)", "level": 1, "trend": "="},
-        {"name": "Cenizos (Amaranthaceae)", "level": 1, "trend": "="},
-        {"name": "Cipreses (Cupressaceae)", "level": 0, "trend": "="},
-        {"name": "Llantén (Plantago)", "level": 1, "trend": "="},
-        {"name": "Palmeras (Palmae (Arecaceae))", "level": 1, "trend": "="},
-        {"name": "Pino (Pinus)", "level": 1, "trend": "="},
-        {"name": "Plátano (Platanus)", "level": 1, "trend": "="},
-        {"name": "Roble/Encina (Quercus Totum)", "level": 1, "trend": "="},
-        {"name": "Alternaria (Alternaria)", "level": 4, "trend": "="},
-        {"name": "Cladosporium (Cladosporium)", "level": 4, "trend": "="}
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Aligustre (Ligustrum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 4,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 4,
+          "trend": "="
+        }
       ]
     },
-    "bellaterra": {"week": null, "url": "https://aerobiologia.cat/pia/es/forecast/bellaterra", "taxa": []},
-    "girona": {"week": null, "url": "https://aerobiologia.cat/pia/es/forecast/girona", "taxa": []},
-    "lleida": {"week": null, "url": "https://aerobiologia.cat/pia/es/forecast/lleida", "taxa": []},
-    "manresa": {"week": null, "url": "https://aerobiologia.cat/pia/es/forecast/manresa", "taxa": []},
-    "roquetes": {"week": null, "url": "https://aerobiologia.cat/pia/es/forecast/roquetes", "taxa": []},
-    "tarragona": {"week": null, "url": "https://aerobiologia.cat/pia/es/forecast/tarragona", "taxa": []},
-    "vielha": {"week": null, "url": "https://aerobiologia.cat/pia/es/forecast/vielha", "taxa": []},
-    "son": {"week": null, "url": "https://aerobiologia.cat/pia/es/forecast/son", "taxa": []}
+    "bellaterra": {
+      "week": "27 de Julio a 02 de Agosto de 2026",
+      "url": "https://aerobiologia.cat/pia/es/forecast/bellaterra",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Aligustre (Ligustrum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 4,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 4,
+          "trend": "="
+        }
+      ]
+    },
+    "girona": {
+      "week": "27 de Julio a 02 de Agosto de 2026",
+      "url": "https://aerobiologia.cat/pia/es/forecast/girona",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Aligustre (Ligustrum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 4,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 4,
+          "trend": "="
+        }
+      ]
+    },
+    "lleida": {
+      "week": "27 de Julio a 02 de Agosto de 2026",
+      "url": "https://aerobiologia.cat/pia/es/forecast/lleida",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Aligustre (Ligustrum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 3,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 4,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 3,
+          "trend": "="
+        }
+      ]
+    },
+    "manresa": {
+      "week": "27 de Julio a 02 de Agosto de 2026",
+      "url": "https://aerobiologia.cat/pia/es/forecast/manresa",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Aligustre (Ligustrum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 2,
+          "trend": "="
+        }
+      ]
+    },
+    "roquetes": {
+      "week": "27 de Julio a 02 de Agosto de 2026",
+      "url": "https://aerobiologia.cat/pia/es/forecast/roquetes",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Aligustre (Ligustrum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 4,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 3,
+          "trend": "="
+        }
+      ]
+    },
+    "tarragona": {
+      "week": "27 de Julio a 02 de Agosto de 2026",
+      "url": "https://aerobiologia.cat/pia/es/forecast/tarragona",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Aligustre (Ligustrum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 2,
+          "trend": "="
+        }
+      ]
+    },
+    "vielha": {
+      "week": "27 de Julio a 02 de Agosto de 2026",
+      "url": "https://aerobiologia.cat/pia/es/forecast/vielha",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Aligustre (Ligustrum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 3,
+          "trend": "="
+        }
+      ]
+    },
+    "son": {
+      "week": "27 de Julio a 02 de Agosto de 2026",
+      "url": "https://aerobiologia.cat/pia/es/forecast/son",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 4,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Aligustre (Ligustrum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 2,
+          "trend": "="
+        }
+      ]
+    }
   }
 }
