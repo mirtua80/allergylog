@@ -1,2 +1,0 @@
-# allergylog
-Registro de alergias
