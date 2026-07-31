@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:21:57.598677+00:00",
+  "generated_at": "2026-07-31T19:59:04.966378+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -18,12 +18,12 @@
   },
   "stations": {
     "barcelona": {
-      "week": "27 de Julio a 02 de Agosto de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/barcelona",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -37,9 +37,9 @@
           "trend": "="
         },
         {
-          "name": "📷Aligustre (Ligustrum)",
+          "name": "📷📄Artemisia (Artemisia)",
           "level": 0,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Castaño (Castanea)",
@@ -49,11 +49,6 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
           "trend": "="
         },
         {
@@ -94,12 +89,12 @@
       ]
     },
     "bellaterra": {
-      "week": "27 de Julio a 02 de Agosto de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/bellaterra",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -113,9 +108,9 @@
           "trend": "="
         },
         {
-          "name": "📷Aligustre (Ligustrum)",
+          "name": "📷📄Artemisia (Artemisia)",
           "level": 0,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Castaño (Castanea)",
@@ -125,11 +120,6 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
           "trend": "="
         },
         {
@@ -170,17 +160,17 @@
       ]
     },
     "girona": {
-      "week": "27 de Julio a 02 de Agosto de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/girona",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -189,9 +179,9 @@
           "trend": "="
         },
         {
-          "name": "📷Aligustre (Ligustrum)",
+          "name": "📷📄Artemisia (Artemisia)",
           "level": 0,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Castaño (Castanea)",
@@ -201,11 +191,6 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
           "trend": "="
         },
         {
@@ -246,7 +231,7 @@
       ]
     },
     "lleida": {
-      "week": "27 de Julio a 02 de Agosto de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/lleida",
       "taxa": [
         {
@@ -261,13 +246,13 @@
         },
         {
           "name": "📷📄Olivo (Olea)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
-          "name": "📷Aligustre (Ligustrum)",
+          "name": "📷📄Artemisia (Artemisia)",
           "level": 0,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Castaño (Castanea)",
@@ -277,11 +262,6 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 3,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
           "trend": "="
         },
         {
@@ -316,13 +296,13 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
     },
     "manresa": {
-      "week": "27 de Julio a 02 de Agosto de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/manresa",
       "taxa": [
         {
@@ -332,18 +312,18 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 2,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Olivo (Olea)",
           "level": 1,
           "trend": "="
         },
         {
-          "name": "📷Aligustre (Ligustrum)",
+          "name": "📷📄Olivo (Olea)",
           "level": 0,
           "trend": "="
+        },
+        {
+          "name": "📷📄Artemisia (Artemisia)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "📷Castaño (Castanea)",
@@ -353,11 +333,6 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
           "trend": "="
         },
         {
@@ -387,18 +362,18 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 2,
+          "level": 4,
           "trend": "="
         }
       ]
     },
     "roquetes": {
-      "week": "27 de Julio a 02 de Agosto de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/roquetes",
       "taxa": [
         {
@@ -417,9 +392,9 @@
           "trend": "="
         },
         {
-          "name": "📷Aligustre (Ligustrum)",
+          "name": "📷📄Artemisia (Artemisia)",
           "level": 0,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Castaño (Castanea)",
@@ -429,11 +404,6 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
           "trend": "="
         },
         {
@@ -468,18 +438,18 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
     },
     "tarragona": {
-      "week": "27 de Julio a 02 de Agosto de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/tarragona",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -493,9 +463,9 @@
           "trend": "="
         },
         {
-          "name": "📷Aligustre (Ligustrum)",
+          "name": "📷📄Artemisia (Artemisia)",
           "level": 0,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Castaño (Castanea)",
@@ -505,11 +475,6 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
           "trend": "="
         },
         {
@@ -539,18 +504,18 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 2,
+          "level": 4,
           "trend": "="
         }
       ]
     },
     "vielha": {
-      "week": "27 de Julio a 02 de Agosto de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/vielha",
       "taxa": [
         {
@@ -560,7 +525,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -569,9 +534,9 @@
           "trend": "="
         },
         {
-          "name": "📷Aligustre (Ligustrum)",
-          "level": 0,
-          "trend": "="
+          "name": "📷📄Artemisia (Artemisia)",
+          "level": 2,
+          "trend": "A"
         },
         {
           "name": "📷Castaño (Castanea)",
@@ -580,12 +545,7 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
@@ -615,23 +575,23 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 3,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
     },
     "son": {
-      "week": "27 de Julio a 02 de Agosto de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/son",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -645,8 +605,8 @@
           "trend": "="
         },
         {
-          "name": "📷Aligustre (Ligustrum)",
-          "level": 0,
+          "name": "📷📄Artemisia (Artemisia)",
+          "level": 2,
           "trend": "="
         },
         {
@@ -656,17 +616,12 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📷Llantén (Plantago)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -676,7 +631,7 @@
         },
         {
           "name": "Pino (Pinus)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -691,7 +646,7 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
