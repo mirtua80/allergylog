@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T22:56:12.468354+00:00",
+  "generated_at": "2026-09-01T11:49:51.108805+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -23,7 +23,7 @@
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -38,12 +38,12 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Castaño (Castanea)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -78,12 +78,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -94,7 +94,7 @@
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -109,12 +109,12 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Castaño (Castanea)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -149,12 +149,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -165,7 +165,7 @@
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -180,12 +180,12 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Castaño (Castanea)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -220,12 +220,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -241,7 +241,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -251,12 +251,12 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Castaño (Castanea)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -286,17 +286,17 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -322,225 +322,12 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Castaño (Castanea)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷Llantén (Plantago)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷Palmeras (Palmae (Arecaceae))",
           "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Plátano (Platanus)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📄Alternaria (Alternaria)",
-          "level": 4,
-          "trend": "="
-        },
-        {
-          "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
-          "trend": "="
-        }
-      ]
-    },
-    "roquetes": {
-      "week": null,
-      "url": "https://aerobiologia.cat/pia/es/forecast/roquetes",
-      "taxa": [
-        {
-          "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Olivo (Olea)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
-        },
-        {
-          "name": "📷Castaño (Castanea)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷Llantén (Plantago)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Plátano (Platanus)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📄Alternaria (Alternaria)",
-          "level": 4,
-          "trend": "="
-        },
-        {
-          "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
-          "trend": "="
-        }
-      ]
-    },
-    "tarragona": {
-      "week": null,
-      "url": "https://aerobiologia.cat/pia/es/forecast/tarragona",
-      "taxa": [
-        {
-          "name": "📷📄Parietaria (Urticaceae)",
-          "level": 2,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Olivo (Olea)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
-        },
-        {
-          "name": "📷Castaño (Castanea)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷Llantén (Plantago)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Plátano (Platanus)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📄Alternaria (Alternaria)",
-          "level": 4,
-          "trend": "="
-        },
-        {
-          "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
-          "trend": "="
-        }
-      ]
-    },
-    "vielha": {
-      "week": null,
-      "url": "https://aerobiologia.cat/pia/es/forecast/vielha",
-      "taxa": [
-        {
-          "name": "📷📄Parietaria (Urticaceae)",
-          "level": 2,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Olivo (Olea)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Artemisia (Artemisia)",
-          "level": 2,
-          "trend": "A"
-        },
-        {
-          "name": "📷Castaño (Castanea)",
-          "level": 1,
           "trend": "="
         },
         {
@@ -580,14 +367,14 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
     },
-    "son": {
+    "roquetes": {
       "week": null,
-      "url": "https://aerobiologia.cat/pia/es/forecast/son",
+      "url": "https://aerobiologia.cat/pia/es/forecast/roquetes",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
@@ -596,7 +383,78 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 4,
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Artemisia (Artemisia)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 3,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 3,
+          "trend": "="
+        }
+      ]
+    },
+    "tarragona": {
+      "week": null,
+      "url": "https://aerobiologia.cat/pia/es/forecast/tarragona",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 1,
           "trend": "="
         },
         {
@@ -606,12 +464,83 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📷Castaño (Castanea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 3,
+          "trend": "="
+        }
+      ]
+    },
+    "vielha": {
+      "week": null,
+      "url": "https://aerobiologia.cat/pia/es/forecast/vielha",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Artemisia (Artemisia)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 0,
           "trend": "="
         },
         {
@@ -647,6 +576,77 @@
         {
           "name": "📄Alternaria (Alternaria)",
           "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 3,
+          "trend": "="
+        }
+      ]
+    },
+    "son": {
+      "week": null,
+      "url": "https://aerobiologia.cat/pia/es/forecast/son",
+      "taxa": [
+        {
+          "name": "📷📄Parietaria (Urticaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Gramíneas (Gramineae (Poaceae))",
+          "level": 4,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Olivo (Olea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Artemisia (Artemisia)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Castaño (Castanea)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Pino (Pinus)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷📄Plátano (Platanus)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "Roble/Encina (Quercus Totum)",
+          "level": 0,
+          "trend": "="
+        },
+        {
+          "name": "📄Alternaria (Alternaria)",
+          "level": 1,
           "trend": "="
         },
         {
