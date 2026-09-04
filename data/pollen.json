@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:30:48.468817+00:00",
+  "generated_at": "2026-09-04T20:52:10.483012+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -38,16 +38,21 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
+          "level": 0,
+          "trend": "A"
+        },
+        {
+          "name": "📷Casuarina (Casuarina)",
           "level": 1,
           "trend": "="
         },
         {
-          "name": "📷Castaño (Castanea)",
-          "level": 0,
+          "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
           "trend": "="
         },
         {
-          "name": "📷📄Céñigos (Amaranthaceae)",
+          "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
           "trend": "="
         },
@@ -58,7 +63,7 @@
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -78,12 +83,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -113,7 +118,7 @@
           "trend": "="
         },
         {
-          "name": "📷Castaño (Castanea)",
+          "name": "📷Casuarina (Casuarina)",
           "level": 0,
           "trend": "="
         },
@@ -123,8 +128,13 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 0,
           "trend": "="
         },
         {
@@ -149,12 +159,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -180,11 +190,11 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
-          "trend": "="
+          "level": 0,
+          "trend": "A"
         },
         {
-          "name": "📷Castaño (Castanea)",
+          "name": "📷Casuarina (Casuarina)",
           "level": 0,
           "trend": "="
         },
@@ -194,13 +204,18 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
           "trend": "="
         },
         {
+          "name": "📷Llantén (Plantago)",
+          "level": 0,
+          "trend": "="
+        },
+        {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -220,12 +235,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -241,27 +256,32 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📷📄Olivo (Olea)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "📷📄Artemisia (Artemisia)",
           "level": 1,
           "trend": "="
         },
         {
-          "name": "📷Castaño (Castanea)",
+          "name": "📷📄Artemisia (Artemisia)",
+          "level": 0,
+          "trend": "A"
+        },
+        {
+          "name": "📷Casuarina (Casuarina)",
           "level": 0,
           "trend": "="
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 3,
+          "level": 4,
+          "trend": "="
+        },
+        {
+          "name": "Compuestas (Compositae (Asteraceae))",
+          "level": 1,
           "trend": "="
         },
         {
@@ -286,17 +306,17 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -326,12 +346,17 @@
           "trend": "="
         },
         {
-          "name": "📷Castaño (Castanea)",
+          "name": "📷Casuarina (Casuarina)",
           "level": 0,
           "trend": "="
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
           "trend": "="
         },
@@ -357,17 +382,17 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -393,13 +418,13 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
-          "trend": "="
+          "level": 0,
+          "trend": "A"
         },
         {
-          "name": "📷Castaño (Castanea)",
+          "name": "📷Casuarina (Casuarina)",
           "level": 0,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
@@ -407,8 +432,13 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 0,
           "trend": "="
         },
         {
@@ -428,12 +458,12 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
@@ -464,13 +494,13 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
-          "trend": "="
+          "level": 0,
+          "trend": "A"
         },
         {
-          "name": "📷Castaño (Castanea)",
+          "name": "📷Casuarina (Casuarina)",
           "level": 0,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
@@ -478,8 +508,13 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "📷Llantén (Plantago)",
+          "level": 0,
           "trend": "="
         },
         {
@@ -499,17 +534,17 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -535,16 +570,21 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
-          "name": "📷Castaño (Castanea)",
+          "name": "📷Casuarina (Casuarina)",
           "level": 0,
           "trend": "="
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
           "trend": "="
         },
@@ -570,17 +610,17 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 3,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -606,16 +646,21 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
-          "name": "📷Castaño (Castanea)",
+          "name": "📷Casuarina (Casuarina)",
           "level": 0,
           "trend": "="
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
+          "level": 1,
+          "trend": "="
+        },
+        {
+          "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
           "trend": "="
         },
@@ -641,17 +686,17 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "📄Alternaria (Alternaria)",
           "level": 1,
           "trend": "="
         },
         {
-          "name": "📄Cladosporium (Cladosporium)",
+          "name": "📄Alternaria (Alternaria)",
           "level": 2,
+          "trend": "="
+        },
+        {
+          "name": "📄Cladosporium (Cladosporium)",
+          "level": 4,
           "trend": "="
         }
       ]
