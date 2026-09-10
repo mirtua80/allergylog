@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:32:44.636224+00:00",
+  "generated_at": "2026-09-10T20:59:50.588302+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -38,8 +38,8 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -58,7 +58,7 @@
         },
         {
           "name": "📷Llantén (Plantago)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -79,7 +79,7 @@
         {
           "name": "Roble/Encina (Quercus Totum)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📄Alternaria (Alternaria)",
@@ -154,7 +154,7 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -175,7 +175,7 @@
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -190,8 +190,8 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -200,7 +200,7 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -231,7 +231,7 @@
         {
           "name": "Roble/Encina (Quercus Totum)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📄Alternaria (Alternaria)",
@@ -266,7 +266,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
+          "level": 1,
           "trend": "A"
         },
         {
@@ -286,7 +286,7 @@
         },
         {
           "name": "📷Llantén (Plantago)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -306,7 +306,7 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -362,7 +362,7 @@
         },
         {
           "name": "📷Llantén (Plantago)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -382,17 +382,17 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -413,13 +413,13 @@
         },
         {
           "name": "📷📄Olivo (Olea)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -458,7 +458,7 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -494,8 +494,8 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -534,17 +534,17 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -555,7 +555,7 @@
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -570,7 +570,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
@@ -610,12 +610,12 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 2,
           "trend": "="
         },
         {
@@ -636,7 +636,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 4,
+          "level": 2,
           "trend": "="
         },
         {
@@ -686,7 +686,7 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
