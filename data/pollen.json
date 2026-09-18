@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T11:30:00.333636+00:00",
+  "generated_at": "2026-09-18T21:01:45.796954+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -48,8 +48,13 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -63,7 +68,7 @@
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
@@ -78,8 +83,8 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
@@ -126,6 +131,11 @@
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
           "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -175,7 +185,7 @@
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -204,6 +214,11 @@
           "trend": "="
         },
         {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "A"
+        },
+        {
           "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
           "trend": "="
@@ -215,7 +230,7 @@
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
@@ -230,8 +245,8 @@
         },
         {
           "name": "Roble/Encina (Quercus Totum)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
@@ -267,7 +282,7 @@
         {
           "name": "📷📄Artemisia (Artemisia)",
           "level": 1,
-          "trend": "A"
+          "trend": "="
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -278,6 +293,11 @@
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 4,
           "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -352,8 +372,13 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -387,12 +412,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -428,8 +453,13 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -468,7 +498,7 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -479,7 +509,7 @@
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -504,8 +534,13 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -529,7 +564,7 @@
         },
         {
           "name": "📷📄Plátano (Platanus)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
@@ -539,12 +574,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -582,6 +617,11 @@
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
           "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -658,6 +698,11 @@
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
           "trend": "="
+        },
+        {
+          "name": "📷📄Cipreses (Cupressaceae)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
