@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T21:37:18.856869+00:00",
+  "generated_at": "2026-09-25T12:00:50.584644+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -18,7 +18,7 @@
   },
   "stations": {
     "barcelona": {
-      "week": null,
+      "week": "28 de Septiembre a 04 de Octubre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/barcelona",
       "taxa": [
         {
@@ -82,11 +82,6 @@
           "trend": "="
         },
         {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
-          "trend": "="
-        },
-        {
           "name": "📄Alternaria (Alternaria)",
           "level": 4,
           "trend": "="
@@ -99,7 +94,7 @@
       ]
     },
     "bellaterra": {
-      "week": null,
+      "week": "28 de Septiembre a 04 de Octubre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/bellaterra",
       "taxa": [
         {
@@ -163,11 +158,6 @@
           "trend": "="
         },
         {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
-          "trend": "="
-        },
-        {
           "name": "📄Alternaria (Alternaria)",
           "level": 4,
           "trend": "="
@@ -180,7 +170,7 @@
       ]
     },
     "girona": {
-      "week": null,
+      "week": "28 de Septiembre a 04 de Octubre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/girona",
       "taxa": [
         {
@@ -210,7 +200,7 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -244,11 +234,6 @@
           "trend": "="
         },
         {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
-          "trend": "="
-        },
-        {
           "name": "📄Alternaria (Alternaria)",
           "level": 4,
           "trend": "="
@@ -261,7 +246,7 @@
       ]
     },
     "lleida": {
-      "week": null,
+      "week": "28 de Septiembre a 04 de Octubre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/lleida",
       "taxa": [
         {
@@ -325,11 +310,6 @@
           "trend": "="
         },
         {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
-          "trend": "="
-        },
-        {
           "name": "📄Alternaria (Alternaria)",
           "level": 4,
           "trend": "="
@@ -342,7 +322,7 @@
       ]
     },
     "manresa": {
-      "week": null,
+      "week": "28 de Septiembre a 04 de Octubre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/manresa",
       "taxa": [
         {
@@ -372,7 +352,7 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -406,11 +386,6 @@
           "trend": "="
         },
         {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
-          "trend": "="
-        },
-        {
           "name": "📄Alternaria (Alternaria)",
           "level": 4,
           "trend": "="
@@ -423,7 +398,7 @@
       ]
     },
     "roquetes": {
-      "week": null,
+      "week": "28 de Septiembre a 04 de Octubre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/roquetes",
       "taxa": [
         {
@@ -487,11 +462,6 @@
           "trend": "="
         },
         {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
-          "trend": "="
-        },
-        {
           "name": "📄Alternaria (Alternaria)",
           "level": 4,
           "trend": "="
@@ -504,7 +474,7 @@
       ]
     },
     "tarragona": {
-      "week": null,
+      "week": "28 de Septiembre a 04 de Octubre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/tarragona",
       "taxa": [
         {
@@ -514,7 +484,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -565,11 +535,6 @@
         {
           "name": "📷📄Plátano (Platanus)",
           "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
           "trend": "="
         },
         {
@@ -585,12 +550,12 @@
       ]
     },
     "vielha": {
-      "week": null,
+      "week": "28 de Septiembre a 04 de Octubre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/vielha",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -645,11 +610,6 @@
         },
         {
           "name": "📷📄Plátano (Platanus)",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Roble/Encina (Quercus Totum)",
           "level": 0,
           "trend": "="
         },
@@ -666,7 +626,7 @@
       ]
     },
     "son": {
-      "week": null,
+      "week": "28 de Septiembre a 04 de Octubre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/son",
       "taxa": [
         {
@@ -686,7 +646,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
@@ -730,18 +690,13 @@
           "trend": "="
         },
         {
-          "name": "Roble/Encina (Quercus Totum)",
-          "level": 0,
-          "trend": "="
-        },
-        {
           "name": "📄Alternaria (Alternaria)",
           "level": 2,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
