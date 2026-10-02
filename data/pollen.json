@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:47:21.579941+00:00",
+  "generated_at": "2026-10-02T12:53:52.670155+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -18,7 +18,7 @@
   },
   "stations": {
     "barcelona": {
-      "week": "28 de Septiembre a 04 de Octubre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/barcelona",
       "taxa": [
         {
@@ -38,7 +38,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -58,12 +58,12 @@
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📷Llantén (Plantago)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
@@ -74,7 +74,7 @@
         {
           "name": "Pino (Pinus)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -94,7 +94,7 @@
       ]
     },
     "bellaterra": {
-      "week": "28 de Septiembre a 04 de Octubre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/bellaterra",
       "taxa": [
         {
@@ -114,7 +114,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -134,7 +134,7 @@
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -150,7 +150,7 @@
         {
           "name": "Pino (Pinus)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -170,7 +170,7 @@
       ]
     },
     "girona": {
-      "week": "28 de Septiembre a 04 de Octubre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/girona",
       "taxa": [
         {
@@ -226,7 +226,7 @@
         {
           "name": "Pino (Pinus)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -246,7 +246,7 @@
       ]
     },
     "lleida": {
-      "week": "28 de Septiembre a 04 de Octubre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/lleida",
       "taxa": [
         {
@@ -302,7 +302,7 @@
         {
           "name": "Pino (Pinus)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -322,7 +322,7 @@
       ]
     },
     "manresa": {
-      "week": "28 de Septiembre a 04 de Octubre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/manresa",
       "taxa": [
         {
@@ -343,7 +343,7 @@
         {
           "name": "📷📄Artemisia (Artemisia)",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -363,7 +363,7 @@
         {
           "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Llantén (Plantago)",
@@ -372,13 +372,13 @@
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "Pino (Pinus)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -398,7 +398,7 @@
       ]
     },
     "roquetes": {
-      "week": "28 de Septiembre a 04 de Octubre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/roquetes",
       "taxa": [
         {
@@ -428,7 +428,7 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -454,7 +454,7 @@
         {
           "name": "Pino (Pinus)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -474,7 +474,7 @@
       ]
     },
     "tarragona": {
-      "week": "28 de Septiembre a 04 de Octubre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/tarragona",
       "taxa": [
         {
@@ -484,7 +484,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -504,7 +504,7 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -530,7 +530,7 @@
         {
           "name": "Pino (Pinus)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -539,18 +539,18 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
     },
     "vielha": {
-      "week": "28 de Septiembre a 04 de Octubre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/vielha",
       "taxa": [
         {
@@ -571,7 +571,7 @@
         {
           "name": "📷📄Artemisia (Artemisia)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -591,7 +591,7 @@
         {
           "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷Llantén (Plantago)",
@@ -606,7 +606,7 @@
         {
           "name": "Pino (Pinus)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -615,18 +615,18 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 2,
           "trend": "="
         }
       ]
     },
     "son": {
-      "week": "28 de Septiembre a 04 de Octubre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/son",
       "taxa": [
         {
@@ -636,7 +636,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -682,7 +682,7 @@
         {
           "name": "Pino (Pinus)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -691,12 +691,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 2,
           "trend": "="
         }
       ]
