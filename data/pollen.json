@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T21:32:37.939355+00:00",
+  "generated_at": "2026-10-16T11:40:25.104759+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -38,7 +38,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -58,7 +58,7 @@
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -83,7 +83,7 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
@@ -129,8 +129,8 @@
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -190,8 +190,8 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
-          "trend": "A"
+          "level": 2,
+          "trend": "="
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -205,12 +205,12 @@
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -281,8 +281,8 @@
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -357,8 +357,8 @@
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -433,8 +433,8 @@
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -499,8 +499,8 @@
         },
         {
           "name": "📷Casuarina (Casuarina)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
@@ -515,7 +515,7 @@
         {
           "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Llantén (Plantago)",
@@ -534,17 +534,17 @@
         },
         {
           "name": "📷📄Plátano (Platanus)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
@@ -595,8 +595,8 @@
         },
         {
           "name": "📷Llantén (Plantago)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
@@ -615,12 +615,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 2,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -671,8 +671,8 @@
         },
         {
           "name": "📷Llantén (Plantago)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
@@ -691,12 +691,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 2,
+          "level": 3,
           "trend": "="
         }
       ]
