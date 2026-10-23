@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:45:57.577584+00:00",
+  "generated_at": "2026-10-23T11:51:47.254479+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -18,7 +18,7 @@
   },
   "stations": {
     "barcelona": {
-      "week": null,
+      "week": "26 de Octubre a 01 de Noviembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/barcelona",
       "taxa": [
         {
@@ -63,18 +63,18 @@
         },
         {
           "name": "📷Llantén (Plantago)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -94,7 +94,7 @@
       ]
     },
     "bellaterra": {
-      "week": null,
+      "week": "26 de Octubre a 01 de Noviembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/bellaterra",
       "taxa": [
         {
@@ -114,7 +114,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -134,7 +134,7 @@
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -149,8 +149,8 @@
         },
         {
           "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -170,7 +170,7 @@
       ]
     },
     "girona": {
-      "week": null,
+      "week": "26 de Octubre a 01 de Noviembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/girona",
       "taxa": [
         {
@@ -190,7 +190,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -200,7 +200,7 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -210,7 +210,7 @@
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -220,13 +220,13 @@
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -246,7 +246,7 @@
       ]
     },
     "lleida": {
-      "week": null,
+      "week": "26 de Octubre a 01 de Noviembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/lleida",
       "taxa": [
         {
@@ -261,7 +261,7 @@
         },
         {
           "name": "📷📄Olivo (Olea)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -287,7 +287,7 @@
         {
           "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Llantén (Plantago)",
@@ -301,8 +301,8 @@
         },
         {
           "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -322,7 +322,7 @@
       ]
     },
     "manresa": {
-      "week": null,
+      "week": "26 de Octubre a 01 de Noviembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/manresa",
       "taxa": [
         {
@@ -343,7 +343,7 @@
         {
           "name": "📷📄Artemisia (Artemisia)",
           "level": 1,
-          "trend": "A"
+          "trend": "="
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -363,7 +363,7 @@
         {
           "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
-          "trend": "A"
+          "trend": "="
         },
         {
           "name": "📷Llantén (Plantago)",
@@ -372,13 +372,13 @@
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -398,7 +398,7 @@
       ]
     },
     "roquetes": {
-      "week": null,
+      "week": "26 de Octubre a 01 de Noviembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/roquetes",
       "taxa": [
         {
@@ -423,7 +423,7 @@
         },
         {
           "name": "📷Casuarina (Casuarina)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -453,8 +453,8 @@
         },
         {
           "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -474,7 +474,7 @@
       ]
     },
     "tarragona": {
-      "week": null,
+      "week": "26 de Octubre a 01 de Noviembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/tarragona",
       "taxa": [
         {
@@ -529,8 +529,8 @@
         },
         {
           "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -550,7 +550,7 @@
       ]
     },
     "vielha": {
-      "week": null,
+      "week": "26 de Octubre a 01 de Noviembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/vielha",
       "taxa": [
         {
@@ -590,8 +590,8 @@
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷Llantén (Plantago)",
@@ -605,8 +605,8 @@
         },
         {
           "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Plátano (Platanus)",
@@ -626,7 +626,7 @@
       ]
     },
     "son": {
-      "week": null,
+      "week": "26 de Octubre a 01 de Noviembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/son",
       "taxa": [
         {
@@ -646,7 +646,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -666,7 +666,7 @@
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -681,8 +681,8 @@
         },
         {
           "name": "Pino (Pinus)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Plátano (Platanus)",
