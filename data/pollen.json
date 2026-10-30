@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:52:08.348883+00:00",
+  "generated_at": "2026-10-30T13:14:01.334369+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -18,7 +18,7 @@
   },
   "stations": {
     "barcelona": {
-      "week": "26 de Octubre a 01 de Noviembre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/barcelona",
       "taxa": [
         {
@@ -28,7 +28,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -43,7 +43,7 @@
         },
         {
           "name": "📷Casuarina (Casuarina)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -62,18 +62,18 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
           "level": 0,
+          "trend": "A"
+        },
+        {
+          "name": "📷Mercurial (Mercurialis)",
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
@@ -94,7 +94,7 @@
       ]
     },
     "bellaterra": {
-      "week": "26 de Octubre a 01 de Noviembre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/bellaterra",
       "taxa": [
         {
@@ -138,17 +138,17 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
           "level": 0,
-          "trend": "="
+          "trend": "A"
+        },
+        {
+          "name": "📷Mercurial (Mercurialis)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
           "level": 0,
           "trend": "="
         },
@@ -170,7 +170,7 @@
       ]
     },
     "girona": {
-      "week": "26 de Octubre a 01 de Noviembre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/girona",
       "taxa": [
         {
@@ -214,17 +214,17 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
           "level": 0,
-          "trend": "="
+          "trend": "A"
+        },
+        {
+          "name": "📷Mercurial (Mercurialis)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
           "level": 0,
           "trend": "="
         },
@@ -246,7 +246,7 @@
       ]
     },
     "lleida": {
-      "week": "26 de Octubre a 01 de Noviembre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/lleida",
       "taxa": [
         {
@@ -267,7 +267,7 @@
         {
           "name": "📷📄Artemisia (Artemisia)",
           "level": 1,
-          "trend": "A"
+          "trend": "="
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -290,17 +290,17 @@
           "trend": "A"
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
+          "level": 0,
+          "trend": "A"
+        },
+        {
+          "name": "📷Mercurial (Mercurialis)",
           "level": 0,
           "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
           "level": 0,
           "trend": "="
         },
@@ -322,7 +322,7 @@
       ]
     },
     "manresa": {
-      "week": "26 de Octubre a 01 de Noviembre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/manresa",
       "taxa": [
         {
@@ -366,17 +366,17 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
           "level": 0,
-          "trend": "="
+          "trend": "A"
+        },
+        {
+          "name": "📷Mercurial (Mercurialis)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
           "level": 0,
           "trend": "="
         },
@@ -398,7 +398,7 @@
       ]
     },
     "roquetes": {
-      "week": "26 de Octubre a 01 de Noviembre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/roquetes",
       "taxa": [
         {
@@ -442,18 +442,18 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
           "level": 0,
-          "trend": "="
+          "trend": "A"
+        },
+        {
+          "name": "📷Mercurial (Mercurialis)",
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
           "level": 1,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
-          "level": 0,
           "trend": "="
         },
         {
@@ -468,13 +468,13 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
     },
     "tarragona": {
-      "week": "26 de Octubre a 01 de Noviembre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/tarragona",
       "taxa": [
         {
@@ -499,7 +499,7 @@
         },
         {
           "name": "📷Casuarina (Casuarina)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -515,21 +515,21 @@
         {
           "name": "Compuestas (Compositae (Asteraceae))",
           "level": 1,
-          "trend": "A"
-        },
-        {
-          "name": "📷Llantén (Plantago)",
-          "level": 0,
           "trend": "="
         },
         {
-          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
+          "level": 0,
+          "trend": "A"
+        },
+        {
+          "name": "📷Mercurial (Mercurialis)",
           "level": 1,
           "trend": "="
         },
         {
-          "name": "Pino (Pinus)",
-          "level": 0,
+          "name": "📷Palmeras (Palmae (Arecaceae))",
+          "level": 2,
           "trend": "="
         },
         {
@@ -544,18 +544,18 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
     },
     "vielha": {
-      "week": "26 de Octubre a 01 de Noviembre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/vielha",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -580,7 +580,7 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -594,17 +594,17 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
+          "level": 0,
+          "trend": "A"
+        },
+        {
+          "name": "📷Mercurial (Mercurialis)",
           "level": 0,
           "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
           "level": 0,
           "trend": "="
         },
@@ -615,23 +615,23 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 2,
           "trend": "="
         }
       ]
     },
     "son": {
-      "week": "26 de Octubre a 01 de Noviembre de 2026",
+      "week": null,
       "url": "https://aerobiologia.cat/pia/es/forecast/son",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -656,13 +656,13 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -670,17 +670,17 @@
           "trend": "="
         },
         {
-          "name": "📷Llantén (Plantago)",
+          "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
+          "level": 0,
+          "trend": "A"
+        },
+        {
+          "name": "📷Mercurial (Mercurialis)",
           "level": 0,
           "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 0,
-          "trend": "="
-        },
-        {
-          "name": "Pino (Pinus)",
           "level": 0,
           "trend": "="
         },
@@ -691,12 +691,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 2,
           "trend": "="
         }
       ]
