@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:18:35.991882+00:00",
+  "generated_at": "2026-11-07T13:20:40.393604+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -28,7 +28,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -49,11 +49,11 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -63,8 +63,8 @@
         },
         {
           "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Mercurial (Mercurialis)",
@@ -83,12 +83,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -119,18 +119,18 @@
         },
         {
           "name": "📷Casuarina (Casuarina)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -139,13 +139,13 @@
         },
         {
           "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Mercurial (Mercurialis)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
@@ -159,7 +159,7 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 2,
           "trend": "="
         },
         {
@@ -201,12 +201,12 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -215,13 +215,13 @@
         },
         {
           "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Mercurial (Mercurialis)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
@@ -235,12 +235,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -256,7 +256,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -266,7 +266,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -276,27 +276,27 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
-          "level": 1,
+          "level": 2,
           "trend": "A"
         },
         {
           "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Mercurial (Mercurialis)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
@@ -353,12 +353,12 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -367,13 +367,13 @@
         },
         {
           "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Mercurial (Mercurialis)",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
@@ -387,7 +387,7 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 2,
           "trend": "="
         },
         {
@@ -423,18 +423,18 @@
         },
         {
           "name": "📷Casuarina (Casuarina)",
-          "level": 0,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -443,8 +443,8 @@
         },
         {
           "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Mercurial (Mercurialis)",
@@ -463,12 +463,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 2,
           "trend": "="
         }
       ]
@@ -505,12 +505,12 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -519,13 +519,13 @@
         },
         {
           "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
-          "level": 0,
-          "trend": "A"
+          "level": 1,
+          "trend": "="
         },
         {
           "name": "📷Mercurial (Mercurialis)",
           "level": 1,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
@@ -539,7 +539,7 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 4,
+          "level": 2,
           "trend": "="
         },
         {
@@ -560,7 +560,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -596,7 +596,7 @@
         {
           "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
           "level": 0,
-          "trend": "A"
+          "trend": "="
         },
         {
           "name": "📷Mercurial (Mercurialis)",
@@ -620,7 +620,7 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 2,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -636,7 +636,7 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -672,7 +672,7 @@
         {
           "name": "Crucíferas (Brasicáceas) (Cruciferae (Brassicaceae))",
           "level": 0,
-          "trend": "A"
+          "trend": "="
         },
         {
           "name": "📷Mercurial (Mercurialis)",
