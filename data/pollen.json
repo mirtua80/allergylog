@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:42:36.002018+00:00",
+  "generated_at": "2026-11-13T14:44:35.235676+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -29,7 +29,7 @@
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -48,8 +48,8 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
@@ -83,12 +83,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 2,
           "trend": "="
         }
       ]
@@ -105,7 +105,7 @@
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -114,18 +114,18 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📷Casuarina (Casuarina)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
@@ -159,12 +159,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -181,7 +181,7 @@
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -190,7 +190,7 @@
         },
         {
           "name": "📷📄Artemisia (Artemisia)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -200,8 +200,8 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
@@ -257,7 +257,7 @@
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -277,7 +277,7 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
@@ -333,7 +333,7 @@
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -352,8 +352,8 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
@@ -387,12 +387,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -409,7 +409,7 @@
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -423,13 +423,13 @@
         },
         {
           "name": "📷Casuarina (Casuarina)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
@@ -453,7 +453,7 @@
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -468,7 +468,7 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 2,
+          "level": 3,
           "trend": "="
         }
       ]
@@ -485,7 +485,7 @@
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -495,7 +495,7 @@
         {
           "name": "📷📄Artemisia (Artemisia)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷Casuarina (Casuarina)",
@@ -504,12 +504,12 @@
         },
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "A"
         },
         {
@@ -529,7 +529,7 @@
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
@@ -539,12 +539,12 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 2,
           "trend": "="
         }
       ]
@@ -586,7 +586,7 @@
         {
           "name": "📷📄Cipreses (Cupressaceae)",
           "level": 0,
-          "trend": "A"
+          "trend": "="
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -620,7 +620,7 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 2,
           "trend": "="
         }
       ]
@@ -661,7 +661,7 @@
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
