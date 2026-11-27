@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:49:22.038173+00:00",
+  "generated_at": "2026-11-27T16:51:08.202683+00:00",
   "source": "https://aerobiologia.cat/pia/es/",
   "license": "CC BY-NC-SA 4.0 — https://aerobiologia.cat/pia/es/terms",
   "attribution_note": "Datos de niveles de polen y esporas: Punt d'Informació Aerobiològica (XAC-UAB).",
@@ -18,12 +18,12 @@
   },
   "stations": {
     "barcelona": {
-      "week": null,
+      "week": "30 de Noviembre a 06 de Diciembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/barcelona",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -83,18 +83,18 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
     },
     "bellaterra": {
-      "week": null,
+      "week": "30 de Noviembre a 06 de Diciembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/bellaterra",
       "taxa": [
         {
@@ -104,8 +104,8 @@
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -159,7 +159,7 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 1,
+          "level": 3,
           "trend": "="
         },
         {
@@ -170,18 +170,18 @@
       ]
     },
     "girona": {
-      "week": null,
+      "week": "30 de Noviembre a 06 de Diciembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/girona",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -205,8 +205,8 @@
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
-          "level": 1,
-          "trend": "A"
+          "level": 2,
+          "trend": "="
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -240,18 +240,18 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         }
       ]
     },
     "lleida": {
-      "week": null,
+      "week": "30 de Noviembre a 06 de Diciembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/lleida",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -277,7 +277,7 @@
         {
           "name": "📷📄Céñigos (Amaranthaceae)",
           "level": 1,
-          "trend": "="
+          "trend": "D"
         },
         {
           "name": "📷📄Cipreses (Cupressaceae)",
@@ -296,7 +296,7 @@
         },
         {
           "name": "📷Mercurial (Mercurialis)",
-          "level": 1,
+          "level": 0,
           "trend": "="
         },
         {
@@ -322,12 +322,12 @@
       ]
     },
     "manresa": {
-      "week": null,
+      "week": "30 de Noviembre a 06 de Diciembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/manresa",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 2,
+          "level": 3,
           "trend": "="
         },
         {
@@ -372,8 +372,8 @@
         },
         {
           "name": "📷Mercurial (Mercurialis)",
-          "level": 1,
-          "trend": "="
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
@@ -387,7 +387,7 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 3,
+          "level": 4,
           "trend": "="
         },
         {
@@ -398,18 +398,18 @@
       ]
     },
     "roquetes": {
-      "week": null,
+      "week": "30 de Noviembre a 06 de Diciembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/roquetes",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
           "name": "📷📄Gramíneas (Gramineae (Poaceae))",
-          "level": 1,
-          "trend": "D"
+          "level": 0,
+          "trend": "="
         },
         {
           "name": "📷📄Olivo (Olea)",
@@ -434,7 +434,7 @@
         {
           "name": "📷📄Cipreses (Cupressaceae)",
           "level": 2,
-          "trend": "="
+          "trend": "A"
         },
         {
           "name": "Compuestas (Compositae (Asteraceae))",
@@ -448,8 +448,8 @@
         },
         {
           "name": "📷Mercurial (Mercurialis)",
-          "level": 1,
-          "trend": "="
+          "level": 0,
+          "trend": "A"
         },
         {
           "name": "📷Palmeras (Palmae (Arecaceae))",
@@ -463,23 +463,23 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 4,
+          "level": 3,
           "trend": "="
         }
       ]
     },
     "tarragona": {
-      "week": null,
+      "week": "30 de Noviembre a 06 de Diciembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/tarragona",
       "taxa": [
         {
           "name": "📷📄Parietaria (Urticaceae)",
-          "level": 1,
+          "level": 2,
           "trend": "="
         },
         {
@@ -539,7 +539,7 @@
         },
         {
           "name": "📄Alternaria (Alternaria)",
-          "level": 1,
+          "level": 3,
           "trend": "="
         },
         {
@@ -550,7 +550,7 @@
       ]
     },
     "vielha": {
-      "week": null,
+      "week": "30 de Noviembre a 06 de Diciembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/vielha",
       "taxa": [
         {
@@ -620,13 +620,13 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         }
       ]
     },
     "son": {
-      "week": null,
+      "week": "30 de Noviembre a 06 de Diciembre de 2026",
       "url": "https://aerobiologia.cat/pia/es/forecast/son",
       "taxa": [
         {
@@ -696,7 +696,7 @@
         },
         {
           "name": "📄Cladosporium (Cladosporium)",
-          "level": 2,
+          "level": 1,
           "trend": "="
         }
       ]
